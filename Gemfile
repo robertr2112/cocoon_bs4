@@ -37,8 +37,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 ###=================###
 ### Added gems      ###
 ###=================###
-gem 'annotate'
-#gem 'annotate_models'
 #gem 'faker'
 # The following are for form help
 gem 'select2-rails'
@@ -81,6 +79,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
+  gem 'annotate'
+# gem 'annotate_models'
   gem 'letter_opener_web'
   gem 'childprocess'
   gem 'pry-rails'
