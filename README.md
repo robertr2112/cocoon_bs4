@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a demo Rails app showing how to work with Cocoon using the Simple_form
+nd Bootstrap 4 apps.
 
-Things you may want to cover:
+It is setup using Ruby version 2.6.6 and Rails version 5.2.4.  It also uses the PG database app, so it needs a working Postgresql environment.
 
-* Ruby version
+RSpec is the testing method.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
