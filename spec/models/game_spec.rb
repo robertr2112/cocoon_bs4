@@ -41,7 +41,6 @@ RSpec.describe Game, type: :model do
   it { should respond_to(:spread) }
   it { should respond_to(:homeTeamScore) }
   it { should respond_to(:awayTeamScore) }
-  it { should respond_to(:wonGame?) }
 
   it { should be_valid }
 

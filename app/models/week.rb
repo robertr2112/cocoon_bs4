@@ -18,5 +18,10 @@
 #  fk_rails_...  (season_id => seasons.id)
 #
 class Week < ApplicationRecord
+
   belongs_to :season
+  has_many   :games, inverse_of: :week, dependent: :delete_all
+
+  accepts_nested_attributes_for :games
+
 end

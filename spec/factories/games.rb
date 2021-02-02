@@ -22,13 +22,12 @@
 #  fk_rails_...  (week_id => weeks.id)
 #
 FactoryBot.define do
+
   factory :game do
-    Week { nil }
-    homeTeamIndex { 1 }
-    awayTeamIndex { 1 }
-    spread { 1 }
-    homeTeamScore { 1 }
-    awayTeamScore { 1 }
-    game_date { "2021-02-01 12:46:44" }
+    sequence(:homeTeamIndex, (1..16).cycle) { |n| n }
+    sequence(:awayTeamIndex, (17..32).cycle) { |n| n }
+    game_date { Time.zone.now + 10.minutes }
+    week
   end
+
 end

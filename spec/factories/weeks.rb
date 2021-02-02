@@ -19,8 +19,27 @@
 #
 FactoryBot.define do
   factory :week do
-    state { 1 }
-    week_number { 1 }
-    season { nil }
+    state        { 0 }
+    week_number  { 1 }
+    season
+
+    transient do
+      num_games  { 5 }
+    end
+
+    factory :week_with_games do
+
+      after (:create) do |week, evaluator|
+        home_games = (1..16).sort_by{rand}
+        away_games = (17..32).sort_by{rand}
+        1.upto(evaluator.num_games) do |n|
+          create(:game, week: week)
+#         create(:game, week: week, homeTeamIndex: home_games[n-1],
+#                                   awayTeamIndex: away_games[n-1])
+        end
+      end
+    end
   end
+
+
 end
