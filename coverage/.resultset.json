@@ -1,166 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/helpers/static_pages_helper_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/helpers/weeks_helper_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/models/game_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          8,
-          null,
-          1,
-          7,
-          null,
-          null,
-          null,
-          8,
-          null,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/models/game.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/models/season_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          7,
-          null,
-          7,
-          null,
-          2,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/models/season.rb": {
+      "/home/ubuntu/environment/cocoon_bs4/app/models/season.rb": {
         "lines": [
           null,
           null,
@@ -179,29 +20,9 @@
           null,
           null,
           1,
-          19,
-          19,
-          19,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/models/team_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          13,
+          13,
+          13,
           null,
           null,
           1,
@@ -209,159 +30,56 @@
           1,
           null,
           1,
-          4,
+          0,
           null,
           null,
-          5,
-          null,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/models/team.rb": {
-        "lines": [
+          1,
+          0,
           null,
           null,
+          1,
+          0,
           null,
           null,
+          1,
+          0,
           null,
           null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
           null,
           null,
           null,
           null,
           null,
           1,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/models/week_spec.rb": {
-        "lines": [
+          0,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          7,
-          null,
-          1,
-          6,
-          null,
-          null,
-          6,
-          null,
-          2,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
           null
         ]
       },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/models/week.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/requests/seasons_request_spec.rb": {
+      "/home/ubuntu/environment/cocoon_bs4/app/models/application_record.rb": {
         "lines": [
           1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/requests/static_pages_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/requests/weeks_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/robertr/rails_projects/cocoon_bs4_example/spec/views/static_pages/home.html.erb_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
           1,
           null
         ]
       },
-      "/home/robertr/rails_projects/cocoon_bs4_example/db/seeds.rb": {
+      "/home/ubuntu/environment/cocoon_bs4/db/seeds.rb": {
         "lines": [
           null,
           null,
@@ -437,21 +155,55 @@
           null
         ]
       },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/controllers/static_pages_controller.rb": {
+      "/home/ubuntu/environment/cocoon_bs4/app/models/team.rb": {
         "lines": [
-          1,
-          1,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
           null
         ]
       },
-      "/home/robertr/rails_projects/cocoon_bs4_example/app/controllers/application_controller.rb": {
+      "/home/ubuntu/environment/cocoon_bs4/app/models/week.rb": {
         "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1612299335
+    "timestamp": 1612410638
   }
 }
