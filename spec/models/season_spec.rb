@@ -25,5 +25,20 @@ RSpec.describe Season, type: :model do
   it { should respond_to(:number_of_weeks) }
   it { should respond_to(:current_week) }
   it { should respond_to(:weeks) }
+  it { should respond_to(:setState) }
+  it { should respond_to(:isPending?) }
+  it { should respond_to(:isOpen?) }
+  it { should respond_to(:isClosed?) }
+  it { should respond_to(:canBeClosed?) }
+  it { should respond_to(:getCurrentWeek) }
+
   
+  describe "Year setting" do
+    it "should be set to current year" do
+      expect(season.year).to eq Time.now.strftime("%Y")
+    end
+  end
+
+
 end
+
