@@ -31,9 +31,8 @@
 #      rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
 
 Rails.application.routes.draw do
-  get 'static_pages/home'
 
-  root 'static_pages#home'
+  root 'seasons#index'
 
   # Seasons and weeks paths
   resources :seasons, shallow: :true do
