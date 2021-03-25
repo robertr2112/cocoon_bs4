@@ -3,7 +3,7 @@
   <!-- Render the main navigation bar -->
   <div class="col-sm-8">
     <div class="card bg-primary text-white">
-      <div class="card-header">Create New Pool</div>
+      <div class="card-header">Edit Season</div>
       <div class="card-body bg-light text-dark">
         <%= simple_form_for @season, html: { class: 'form-horizontal' },
           wrapper: :horizontal_form,
@@ -16,8 +16,18 @@
 
           <%= f.input :number_of_weeks, label: 'Number Of Weeks', placeholder: 'Number Of Weeks' %>
 
+          <%= f.input :current_week, label: 'Current Week', placeholder: 'Current Week' %>
+
           <%= f.input :nfl_league, label: 'NFL League',
                 hint: 'Is this an NFL League or college?', as: :radio_buttons  %>
+
+          <div id="weeks">
+            <%= f.simple_fields_for :weeks do |week| %>
+              <%= render 'week_fields', f: week %>
+            <% end %>
+            <%= link_to_add_association 'Add New Week', f, :weeks, class: "week-add",
+                :"data-association-insertion-method" => "after" %>
+          </div>
 
           <%= f.button :submit, 'Update season', class: "btn btn-large btn-primary" %>
         <% end %>

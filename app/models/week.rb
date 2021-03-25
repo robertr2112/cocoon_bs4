@@ -20,8 +20,8 @@
 class Week < ApplicationRecord
 
   belongs_to :season
-  has_many   :games, inverse_of: :week, dependent: :delete_all
+  has_many   :games, inverse_of: :week, dependent: :destroy
 
-  accepts_nested_attributes_for :games
+  accepts_nested_attributes_for :games, allow_destroy: true
 
 end

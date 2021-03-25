@@ -20,8 +20,6 @@
           <li class="list-group-item">
             <% if current_week %>
               <b>Current Week: </b> <%= "#{current_week.week_number} " %>
-              <b>State: </b> <%= render 'shared/show_week_state', week: current_week %>
-              <small><%= link_to "[edit]", edit_week_path(current_week) %></small>
             <% else %>
               <b>Current Week: </b> <%= "No weeks created yet" %>
             <% end %>

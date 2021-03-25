@@ -15,6 +15,8 @@ class Season < ApplicationRecord
 
   has_many :weeks, dependent: :delete_all
 
+  accepts_nested_attributes_for :weeks, allow_destroy: true
+
   STATES = { Pend: 0, Open: 1, Closed: 2 }
 
   def self.getSeasonYear
